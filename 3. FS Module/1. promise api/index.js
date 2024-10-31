@@ -46,10 +46,20 @@ import path from "path"
 // }
 
 // Read File
-try{
-    const data = await fs.readFile("C:\\Users\\Lenovo\\Documents\\nodejs\\Cay\\index.html", "utf-8")
-    // UTF-8 removes buffer and returns data 
-    console.log(data)
-} catch(error) {
-    console.log(error)
-}
+// try{
+//     const data = await fs.readFile("C:\\Users\\Lenovo\\Documents\\nodejs\\Cay\\index.html", "utf-8")
+//     // UTF-8 removes buffer and returns data 
+//     console.log(data)
+// } catch(error) {
+//     console.log(error)
+// }
+
+// Get File Information 😊
+// try {
+//   const info = await fs.stat("C:\\Users\\Lenovo\\Documents\\nodejs\\Cay\\index.html");
+//   // console.log(info); // returns object
+//   console.log(info.isDirectory());
+//   console.log(info.isFile());
+// } catch (error) {
+//   console.log(error);
+// }
