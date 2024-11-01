@@ -54,7 +54,7 @@ import path from "path"
 //     console.log(error)
 // }
 
-// Get File Information 😊
+// Get File Information 
 // try {
 //   const info = await fs.stat("C:\\Users\\Lenovo\\Documents\\nodejs\\Cay\\index.html");
 //   // console.log(info); // returns object
